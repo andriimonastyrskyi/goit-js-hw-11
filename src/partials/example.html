@@ -1,10 +1,9 @@
-<article class="example" id="uk">
+<!-- <article class="example" id="uk">
   <h1>HTML-partials</h1>
 
-  <!--
-    ❗️❗️❗️ The path to images from the HTML partial
-    is the same as from the index.html file
-  -->
+  ❗️❗️❗️ The path to images from the HTML partial is the same as from the
+  index.html file
+
   <img src="images/logo.png" alt="" width="320" />
 
   <p>
@@ -34,4 +33,24 @@
   </p>
 
   <div class="background"></div>
-</article>
+</article> -->
+
+<form class="search-form" id="search-form">
+  <input
+    type="text"
+    id="input-form"
+    name="searchQuery"
+    autocomplete="off"
+    placeholder="Search images..."
+  />
+  <button type="submit" id="submit-form">Search</button>
+</form>
+
+<div class="gallery">
+  <!-- зображень -->
+</div>
+
+<button type="button" class="load-more is-hiden" id="load-more-btn">
+  Load more
+</button>
+<script type="module" src="index.js"></script>
